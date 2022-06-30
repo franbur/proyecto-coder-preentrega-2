@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* background-color: rgb(28, 26, 26);*/
+    box-sizing: border-box;
+
+}
+
+.title{
+ 
+    color: black;
+    font-size: 16px;
+
+}
+ p{
+   color: black;
+   font-size: 14px;
+   
+}
+
+.cards{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    margin: 30px;
+}
+.cardImg{
+    width: 100%;
+    border: rgb(241, 189, 97);
+    border-radius: 10px;
+}
+.btn{
+  margin: 10px;
+  align-self: center;
+  color: beige;
+  padding: 10px;
+  background-color: grey;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+.containerForm{
+display: flex;
+background-image: url(../img/imagen\ de\ index1.jpg);
+height:500px ;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.form form{
+    margin-right: 100px;
+    display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   margin-left: 20px;
+   margin-bottom: 30px; 
+}
+.form form input{
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+    background-color: bisque;
+    border: rgb(210, 145, 31) solid 2px;
+    width: 300px;
+  padding: 20px;
+}
+
+
+
+.info p{
+    color: beige;
+    font-size: 20px;
+    margin: 20px;
+    
+    
+}
+
+ .ubicacion{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .ubicacion p{
+     margin-left: 20px;
+     color: white;
+     font-size: 18px;
+ }
+.footer{
+   border-top: 2px solid orange;
+   text-align: center;
+   color: rgb(27, 27, 26);
+   gap: 5%;
+}
+ 
+.footerImg{
+   width: 50px;
+  padding: 20px;
+}
+.footer h5{
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
