@@ -68,10 +68,9 @@ background-repeat: no-repeat;
     color: white;
     background-color: bisque;
     border: rgb(210, 145, 31) solid 2px;
-    width: 300px;
+    width: 250px;
   padding: 20px;
 }
-
 
 
 .info p{
@@ -81,12 +80,6 @@ background-repeat: no-repeat;
     
     
 }
-
- .ubicacion{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
  .ubicacion p{
      margin-left: 20px;
      color: white;
@@ -100,11 +93,10 @@ background-repeat: no-repeat;
 }
  
 .footerImg{
-   width: 50px;
+   width: 100px;
   padding: 20px;
 }
 .footer h5{
     font-size: 14px;
     margin-bottom: 5%;
 }
-
